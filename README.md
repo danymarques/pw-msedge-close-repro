@@ -14,6 +14,8 @@ whole time, even though the browser disconnected and its process exited within ~
 ## Setup
 
 ```bash
+git clone https://github.com/danymarques/pw-msedge-close-repro
+cd pw-msedge-close-repro
 npm install
 npx playwright install msedge   # or have Microsoft Edge installed
 ```
