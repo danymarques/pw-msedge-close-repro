@@ -1,0 +1,13 @@
+{
+  "name": "pw-msedge-close-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproduction: browser.close() with channel 'msedge' can block ~20s while EdgeUpdater holds the inherited stdio pipe.",
+  "scripts": {
+    "test": "node msedge-close.js",
+    "mechanism": "node mechanism.js"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}
